@@ -3,7 +3,7 @@
 Repositorio para presentacion de trabajo en mentoria "Mapenado el universo" para diplomatura de ciencia de datos, Famaf.
 
 ## Integrantes del grupo
-Amante Sofia
-Girela Ignacio
-Mercado Matias
-Valdeiglesias Bruno
+* Amante Sofia
+* Girela Ignacio
+* Mercado Matias
+* Valdeiglesias Bruno
