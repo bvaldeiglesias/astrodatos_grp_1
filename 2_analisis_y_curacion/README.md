@@ -8,7 +8,12 @@
 * Valdeiglesias Bruno
 
 
-## Docker
+## Docker: Build & Run Local
 
 1. Ejecutar ```docker build -t diplodatos_analisis_y_curacion .```
 2. Ejecutar ```docker run -p 8888:8888 diplodatos_analisis_y_curacion```
+
+## Docker: pull remoto
+
+1. Ejecutar ```docker build -t bvaldeiglesias/diplodatos_analisis_y_curacion .```
+2. Ejecutar ```docker run -p 8888:8888 bvaldeiglesias/diplodatos_analisis_y_curacion```
