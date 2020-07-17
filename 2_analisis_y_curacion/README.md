@@ -10,6 +10,5 @@
 
 ## Docker
 
----
-
-1. Run ¨¨¨docker build .¨¨¨
+1. Ejecutar ```docker build -t diplodatos_analisis_y_curacion .```
+2. Ejecutar ```docker run -p 8888:8888 diplodatos_analisis_y_curacion```
