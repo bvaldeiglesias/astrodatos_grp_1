@@ -1,0 +1,17 @@
+FROM jupyter/base-notebook 
+
+COPY . .
+WORKDIR 2_analisis_y_curacion/
+
+RUN mkdir src/
+WORKDIR src/
+COPY . .
+
+RUN pip3 install -r ./2_analisis_y_curacion/requirements.txt
+RUN pip3 install jupyterlab
+
+RUN python3 module.py
+
+WORKDIR notebooks/
+
+CMD ["jupyter", "lab", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
