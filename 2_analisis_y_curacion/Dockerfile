@@ -1,6 +1,7 @@
 FROM jupyter/base-notebook 
 
-WORKDIR .
+RUN mkdir src/
+WORKDIR src/
 COPY . .
 
 RUN pip3 install -r requirements.txt
@@ -8,7 +9,6 @@ RUN pip3 install jupyterlab
 
 RUN python3 module.py
 
-# RUN rm /src/data/raw_data.csv
-
+WORKDIR notebooks/
 
 CMD ["jupyter", "lab", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
