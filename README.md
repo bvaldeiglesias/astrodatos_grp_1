@@ -7,3 +7,7 @@ Repositorio para presentacion de trabajo en mentoria "Mapeando el universo" para
 * Girela Ignacio
 * Mercado Matias
 * Valdeiglesias Bruno
+
+## Notas
+
+Es necesario contar con GIT LFS (Large FileSystem) para poder descargar los comprimidos .zip

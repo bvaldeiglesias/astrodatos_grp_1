@@ -128,3 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Datasets (deben descomprimirse los que ya estan subidos)
+*.csv
